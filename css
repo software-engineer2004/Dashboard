@@ -1,0 +1,365 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .pg_container {
+        height: 100vh;
+        display: flex;
+    }
+
+    .sidebar {
+        background-color: #002159;
+        display: flex;
+        width: 250px;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .sidebar_heading {
+        color: white;
+        font-size: 26px;
+        font-family: "open sans";
+        padding-left: 15px;
+    }
+
+    .icon-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-icon-container {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        align-items: center;
+    }
+
+    .icon {
+        font-size: 15px;
+        color: white;
+        padding-top: 0;
+    }
+
+    .icon-para {
+        font-size: 20px;
+        color: white;
+        font-family: "open sans";
+        padding-left: 10px;
+    }
+
+    .active_option {
+        background-color: #296eff;
+        margin-left: 8px;
+        margin-right: 8px;
+        border-radius: 7px;
+    }
+
+    .non-active-options {
+        padding-left: 8px;
+    }
+
+    .profile_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: auto;
+        margin-left: 8px;
+        margin-bottom: 8px;
+    }
+
+    .profile_img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    .profile-name {
+        color: white;
+        font-size: 12px;
+        padding-left: 5px;
+        font-family: "open sans";
+    }
+
+    .favourites_background {
+        padding: 5px;
+        flex-wrap: wrap;
+        overflow-y: auto;
+    }
+
+    .favourites_heading {
+        color: #002159;
+        font-family: "open sans";
+        font-size: 60px;
+        padding-left: 10px;
+    }
+
+    .favourites_para {
+        color: #002159;
+        font-family: "open sans";
+        font-size: 40px;
+        padding-left: 14px;
+    }
+
+    .img_container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+    }
+
+    .img {
+        width: 250px;
+        padding: 10px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .pg_container {
+        height: 100vh;
+        display: flex;
+    }
+
+    .sidebar {
+        background-color: #002159;
+        display: flex;
+        width: 250px;
+        flex-direction: column;
+    }
+
+    .sidebar_heading {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        padding-left: 15px;
+    }
+
+    .icon-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-icon-container {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        align-items: center;
+    }
+
+    .icon {
+        font-size: 15px;
+        color: white;
+        padding-top: 0;
+    }
+
+    .icon-para {
+        font-size: 15px;
+        color: white;
+        font-family: "open sans";
+        padding-left: 10px;
+    }
+
+    .active_option {
+        background-color: #296eff;
+        margin-left: 8px;
+        margin-right: 8px;
+        border-radius: 7px;
+    }
+
+    .non-active-options {
+        padding-left: 8px;
+    }
+
+    .profile_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: auto;
+        margin-left: 8px;
+        margin-bottom: 8px;
+    }
+
+    .profile_img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    .profile-name {
+        color: white;
+        font-size: 12px;
+        padding-left: 5px;
+        font-family: "open sans";
+    }
+
+    .favourites_background {
+        padding: 5px;
+        flex-wrap: wrap;
+        overflow-y: auto;
+    }
+
+    .favourites_heading {
+        color: #002159;
+        font-family: "open sans";
+        font-size: 24px;
+        padding-left: 10px;
+    }
+
+    .favourites_para {
+        color: #002159;
+        font-family: "open sans";
+        font-size: 18px;
+        padding-left: 14px;
+    }
+
+    .img_container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+    }
+
+    .img {
+        width: 165px;
+        padding: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .pg_container {
+        height: 100vh;
+        display: flex;
+    }
+
+    .sidebar {
+        background-color: #002159;
+        display: flex;
+        width: 46%;
+        flex-direction: column;
+    }
+
+    .sidebar_heading {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        padding-left: 15px;
+    }
+
+    .icon-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-icon-container {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        align-items: center;
+    }
+
+    .icon {
+        font-size: 15px;
+        color: white;
+        padding-top: 0;
+    }
+
+    .icon-para {
+        font-size: 15px;
+        color: white;
+        font-family: "open sans";
+        padding-left: 10px;
+    }
+
+    .active_option {
+        background-color: #296eff;
+        margin-left: 8px;
+        margin-right: 8px;
+        border-radius: 7px;
+    }
+
+    .non-active-options {
+        padding-left: 8px;
+    }
+
+    .profile_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: auto;
+        margin-left: 8px;
+        margin-bottom: 8px;
+    }
+
+    .profile_img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    .profile-name {
+        color: white;
+        font-size: 12px;
+        padding-left: 5px;
+        font-family: "open sans";
+    }
+
+    .favourites_background {
+        padding: 5px;
+        flex-wrap: wrap;
+        overflow-y: auto;
+    }
+
+    .favourites_heading {
+        color: #002159;
+        font-family: "open sans";
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .favourites_para {
+        color: #002159;
+        font-family: "open sans";
+        font-size: 14px;
+        padding-left: 14px;
+    }
+
+    .img_container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+    }
+
+    .img {
+        width: 50%;
+        padding: 5px;
+    }
+
+}
